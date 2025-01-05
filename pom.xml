@@ -1,9 +1,20 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-			    http://maven.apache.org/maven-v4_0_0.xsd">
-	<groupId>com.github.myasirkhan</groupId>
-	<artifactId>databricks-jdbc</artifactId>
-	<version>2.6.40-patch-1-safe</version>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.myasirkhan</groupId>
+    <artifactId>databricks-jdbc</artifactId>
+    <version>2.6.40-patch-1-safe</version>
+    <packaging>jar</packaging>
+
+    <description>Patched version of Databricks JDBC driver</description>
+    <url>https://github.com/myasirkhan/databricks-jdbc</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
 </project>
